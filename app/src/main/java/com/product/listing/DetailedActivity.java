@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.samco.listingproductapplication.R;
+import com.product.listing.R;
 
 public class DetailedActivity extends AppCompatActivity {
     TextView title, desc,price_txt,stock_txt,rating_txt;

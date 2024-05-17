@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.samco.listingproductapplication.R;
+import com.product.listing.R;
 
 import java.util.ArrayList;
 
