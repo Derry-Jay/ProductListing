@@ -1,21 +1,19 @@
 package com.product.listing;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.os.Bundle;
-//import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
 import com.bumptech.glide.Glide;
-import com.product.listing.R;
 
 public class DetailedActivity extends AppCompatActivity {
-    TextView title, desc,price_txt,stock_txt,rating_txt;
-    String heading ,content,imgUrl,price,stock,rating;
-    ImageView back_btn,img;
+    TextView title, desc, price_txt, stock_txt, rating_txt;
+    String heading, content, imgUrl, price, stock, rating;
+    ImageView back_btn, img;
     CardView exploreBtn;
 
     @Override

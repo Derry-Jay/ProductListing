@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Product-Listing</string>
+    <string name="app_name">Product Listing</string>
+
+    <string name="h1">Implied Volatalty IV</string>
+    <string name="p1">It represents the collective expectation of market
+participants regarding the future price volatility for an
+underlying asset, such as a stock or index.</string>
+
+    <string name="h2">Historical Volatility (HV)</string>
+    <string name="p2">It represents the volatility computed using standard
+deviation of the underlying stock. It indicates the volatility in the stock for past 1Year and 30 Days.</string>
+
+    <string name="h3">Spot</string>
+    <string name="p3">chart is shown for a quick comparison of volatility with its
+underlying.</string>
+
+    <string name="h4">IV Percentile (IVP)</string>
+    <string name="p4">is a measure that indicates the current level of IV relative to
+its historical range. It helps gauge whether current IV is
+relatively high or low.\nIVP represents the % of days in last 52 weeks, where
+Historical IV was less than the current IV.\nIt ranges from O (representing lowest IV in 52 Weeks) to 100 (representing highest IV in 52 weeks)</string>
+
+    <string name="h5">Historical Volatility (HV)</string>
+    <string name="p5">helps traders understand the current level of implied
+volatility compared to its historical context, aiding in identifying whether IV is relatively high or low at the present time.\nIV Rank represents the % of values in last 52 weeks, where
+the Historical IV was lower than the current IV.\nIt ranges from O (representing the lowest IV observed in the past year), and 100 (representing the highest IV observed
+</string>
 </resources>
