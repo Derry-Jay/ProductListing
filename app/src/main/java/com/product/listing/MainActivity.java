@@ -1,6 +1,7 @@
 package com.product.listing;
 
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -26,15 +27,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    String url = "https://dummyjson.com/products";
-    ArrayList<ProdModel> list = new ArrayList<>();
-
-    boolean isNightModeOn;
-
     public Button bottomSheetButton;
-
     public BottomSheetDialog bottomSheetDialog;
-
+    ArrayList<ProdModel> list = new ArrayList<>();
+    boolean isNightModeOn;
     TextView darkMode;
 
     TextView darkMode2;
@@ -93,10 +89,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadData() {
+        final Resources res = getResources();
         RequestQueue mRequestQueue = Volley.newRequestQueue(this);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                 Request.Method.GET,
-                url,
+                res.getString(R.string.base_url_1) + "products",
                 null,
                 response -> {
                     try {

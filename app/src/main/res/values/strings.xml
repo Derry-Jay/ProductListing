@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Product Listing</string>
-
+    <string name="base_url_1">https://dummyjson.com/</string>
     <string name="h1">Implied Volatalty IV</string>
     <string name="p1">It represents the collective expectation of market
 participants regarding the future price volatility for an
